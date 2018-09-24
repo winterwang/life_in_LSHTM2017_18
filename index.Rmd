@@ -1,0 +1,57 @@
+---
+title: "A year in LSHTM"
+subtitle: "MSc Medical Statistics 2017-2018"
+author: "Chaochen Wang"
+date: "2018/10/03 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, "css/LSHTM.css", metropolis-fonts]
+    lib_dir: libs
+    nature:
+      countdown: 60000
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url("./img/MedStats20172018.png")
+background-size: contain
+
+
+---
+class: inverse, center, middle
+
+# Term 1
+
+---
+background-image: url("./img/orientation.png")
+background-position: 50% 50%
+background-size: contain
+
+
+
+---
+background-image: url("./img/term1.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/internationalhall.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+background-image: url("./img/pumpJohnSnowhall.jpg")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/fishandchips.jpg")
+background-position: 50% 50%
+background-size: contain
