@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 # A year in LSHTM
 ## MSc Medical Statistics 2017-2018
 ### Chaochen Wang
-### 2018/10/03 (updated: 2018-09-24)
+### 2018/10/03 (updated: 2018-10-01)
 
 ---
 
@@ -33,6 +33,12 @@ class: inverse, center, middle
 
 ---
 background-image: url("./img/orientation.png")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/rss.png")
 background-position: 50% 50%
 background-size: contain
 
@@ -54,6 +60,10 @@ background-image: url("./img/pumpJohnSnowhall.jpg")
 background-position: 50% 50%
 background-size: contain
 
+---
+background-image: url("./img/globalhealth.png")
+background-position: 50% 50%
+background-size: contain
 
 ---
 background-image: url("./img/fishandchips.jpg")
@@ -68,6 +78,183 @@ background-size: contain
 class: inverse, bottom, middle, center
 
 ## 本初子午線
+
+---
+background-image: url("./img/cambridge.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/cambridge01.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/Towerbridge.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/cornwall.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/newyear.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/windsors.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/springfestival.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/strike.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/IHsnow.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/IHsnow02.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/LSHTMsnow.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/snowOxford.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/hawkin.png")
+background-position: 50% 50%
+background-size: contain
+
+---
+background-image: url("./img/LondonR.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/NationalGallery.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/pheobe_exam.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/test.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/beerinRusselsquare.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/seafood.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/durness.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/lutheran.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+
+---
+class: inverse
+background-image: url("./img/FIFA00.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/FIFA.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/project.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+class: inverse
+background-image: url("./img/projectdocs.jpg")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+class: inverse
+background-image: url("./img/whitecliff.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/sevensisters.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/pump.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/Johnsnowpub.jpg")
+background-position: 50% 50%
+background-size: contain
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class: inverse --&gt;
+&lt;!-- background-image: url("./img/library.jpg") --&gt;
+&lt;!-- background-position: 50% 50% --&gt;
+&lt;!-- background-size: cover --&gt;
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
@@ -83,52 +270,7 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
-})();
-(function(time) {
-  var d2 = function(number) {
-    return ('0' + number).slice(-2); // left-pad 0 to minutes/seconds
-  },
-
-  time_format = function(total) {
-    var secs = Math.abs(total) / 1000;
-    var h = Math.floor(secs / 3600);
-    var m = Math.floor(secs % 3600 / 60);
-    var s = Math.round(secs % 60);
-    var res = d2(m) + ':' + d2(s);
-    if (h > 0) res = h + ':' + res;
-    return res;  // [hh:]mm:ss
-  },
-
-  slide_number_div = function(i) {
-    return document.getElementsByClassName('remark-slide-number').item(i);
-  },
-
-  current_page_number = function(i) {
-    return slide_number_div(i).firstChild.textContent;  // text "i / N"
-  };
-
-  var timer = document.createElement('span'); timer.id = 'slide-time-left';
-  var time_left = time, k = slideshow.getCurrentSlideIndex(),
-      last_page_number = current_page_number(k);
-
-  setInterval(function() {
-    time_left = time_left - 1000;
-    timer.innerHTML = ' ' + time_format(time_left);
-    if (time_left < 0) timer.style.color = 'red';
-  }, 1000);
-
-  slide_number_div(k).appendChild(timer);
-
-  slideshow.on('showSlide', function(slide) {
-    var i = slide.getSlideIndex(), n = current_page_number(i);
-    // reset timer when a new slide is shown and the page number is changed
-    if (last_page_number !== n) {
-      time_left = time; last_page_number = n;
-      timer.innerHTML = ' ' + time_format(time); timer.style.color = null;
-    }
-    slide_number_div(i).appendChild(timer);
-  });
-})(60000);</script>
+})();</script>
 
 <script>
 (function() {

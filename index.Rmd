@@ -8,7 +8,7 @@ output:
     css: [default, "css/LSHTM.css", metropolis-fonts]
     lib_dir: libs
     nature:
-      countdown: 60000
+      # countdown: 60000
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -32,6 +32,12 @@ background-image: url("./img/orientation.png")
 background-position: 50% 50%
 background-size: contain
 
+---
+class: inverse
+background-image: url("./img/rss.png")
+background-position: 50% 50%
+background-size: contain
+
 
 
 ---
@@ -50,6 +56,10 @@ background-image: url("./img/pumpJohnSnowhall.jpg")
 background-position: 50% 50%
 background-size: contain
 
+---
+background-image: url("./img/globalhealth.png")
+background-position: 50% 50%
+background-size: contain
 
 ---
 background-image: url("./img/fishandchips.jpg")
@@ -64,3 +74,180 @@ background-size: contain
 class: inverse, bottom, middle, center
 
 ## 本初子午線
+
+---
+background-image: url("./img/cambridge.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/cambridge01.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+background-image: url("./img/Towerbridge.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/cornwall.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/newyear.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/windsors.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/springfestival.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/strike.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/IHsnow.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/IHsnow02.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/LSHTMsnow.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+background-image: url("./img/snowOxford.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/hawkin.png")
+background-position: 50% 50%
+background-size: contain
+
+---
+background-image: url("./img/LondonR.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/NationalGallery.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/pheobe_exam.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/test.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/beerinRusselsquare.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/seafood.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/durness.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/lutheran.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+
+---
+class: inverse
+background-image: url("./img/FIFA00.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/FIFA.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/project.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+class: inverse
+background-image: url("./img/projectdocs.jpg")
+background-position: 50% 50%
+background-size: contain
+
+
+---
+class: inverse
+background-image: url("./img/whitecliff.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/sevensisters.jpg")
+background-position: 50% 50%
+background-size: cover
+
+
+---
+class: inverse
+background-image: url("./img/pump.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/Johnsnowpub.jpg")
+background-position: 50% 50%
+background-size: contain
+
+
+<!-- --- -->
+<!-- class: inverse -->
+<!-- background-image: url("./img/library.jpg") -->
+<!-- background-position: 50% 50% -->
+<!-- background-size: cover -->
