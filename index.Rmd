@@ -21,7 +21,9 @@ options(htmltools.dir.version = FALSE)
 
 class: inverse, center, middle
 
-# Term 1
+# Term 1 
+
+## 2017-9-18 ~ 2017-12-15 <br> 88 days
 
 ---
 background-image: url("./img/orientation.png")
@@ -136,6 +138,8 @@ class: inverse, center, middle
 
 # Term 2
 
+## 2018-1-8 ~ 2018-3-29 <br> 80 days
+
 
 ---
 background-image: url("./img/Term2.png")
@@ -204,6 +208,18 @@ background-position: 50% 50%
 background-size: cover
 
 ---
+class: inverse, center, middle
+
+# Term 3
+## 2018-4-16 ~ 2018-7-5 <br> 80 days
+
+---
+background-image: url("./img/Term03.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
 background-image: url("./img/pheobe_exam.jpg")
 background-position: 50% 50%
 background-size: cover
@@ -233,7 +249,27 @@ background-image: url("./img/lutheran.jpg")
 background-position: 50% 50%
 background-size: cover
 
+---
+class: inverse, center, middle
 
+# Term 4 Summer Project
+## 2018-7-5 ~ 2018-9-17 <br> 74 days
+
+---
+background-image: url("./img/examresults.jpg")
+background-position: 50% 50%
+background-size: contain
+
+---
+background-image: url("./img/totalGPA.png")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/project.jpg")
+background-position: 50% 50%
+background-size: cover
 
 ---
 class: inverse
@@ -247,11 +283,14 @@ background-image: url("./img/FIFA.jpg")
 background-position: 50% 50%
 background-size: contain
 
+
 ---
 class: inverse
-background-image: url("./img/project.jpg")
-background-position: 50% 50%
-background-size: cover
+## Mutlilevel Latent Class Analysis Modelling
+
+<video autosize:true controls>
+  <source src="img/MLCA.mp4" type="video/mp4">
+</video>
 
 ---
 class: inverse
@@ -260,12 +299,16 @@ background-position: 50% 50%
 background-size: contain
 
 
+
+
+
+
 ---
-class: inverse
+class: inverse, right, top
 background-image: url("./img/whitecliff.jpg")
 background-position: 50% 50%
 background-size: cover
-
+### Seven Sisters White Cliff
 
 ---
 class: inverse
@@ -275,25 +318,21 @@ background-size: cover
 
 
 ---
-class: inverse
+class: inverse, bottom, left
 background-image: url("./img/pump.jpg")
 background-position: 50% 50%
 background-size: contain
+### The pump
 
 ---
-class: inverse
+class: inverse, bottom, left
 background-image: url("./img/Johnsnowpub.jpg")
 background-position: 50% 50%
 background-size: contain
+### The bar
 
 ---
-class: inverse
+class: inverse, bottom, center
 background-image: url("./img/MedStats20172018.png")
 background-size: contain
-
-
-<!-- --- -->
-<!-- class: inverse -->
-<!-- background-image: url("./img/library.jpg") -->
-<!-- background-position: 50% 50% -->
-<!-- background-size: cover -->
+### The class: MSc Med Stats 2017-2018
