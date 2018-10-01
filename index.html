@@ -6,6 +6,15 @@
     <meta name="author" content="Chaochen Wang" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding/leaflet.js"></script>
     <link rel="stylesheet" href="css/LSHTM.css" type="text/css" />
   </head>
   <body>
@@ -22,11 +31,7 @@ class: center, middle, inverse, title-slide
 
 
 
-background-image: url("./img/MedStats20172018.png")
-background-size: contain
 
-
----
 class: inverse, center, middle
 
 # Term 1
@@ -56,6 +61,12 @@ background-position: 50% 50%
 background-size: contain
 
 ---
+### My activity zone (everything within 1 km)
+<div id="htmlwidget-b662c53754eea3aa1785" style="width:100%;height:504px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b662c53754eea3aa1785">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[51.520812,-0.130276],15,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[51.520812,-0.130276,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"LSHTM",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[51.523664,-0.121504,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"International Hall",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[51.527128,-0.125381,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Lutheran Student Centre",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircles","args":[51.520812,-0.130276,1000,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":3,"opacity":0.7,"fill":false,"fillColor":"#03F","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]}],"limits":{"lat":[51.520812,51.527128],"lng":[-0.130276,-0.121504]}},"evals":[],"jsHooks":[]}</script>
+
+
+---
 background-image: url("./img/pumpJohnSnowhall.jpg")
 background-position: 50% 50%
 background-size: contain
@@ -66,6 +77,7 @@ background-position: 50% 50%
 background-size: contain
 
 ---
+class: inverse
 background-image: url("./img/fishandchips.jpg")
 background-position: 50% 50%
 background-size: contain
@@ -92,26 +104,47 @@ background-size: contain
 
 
 ---
-background-image: url("./img/Towerbridge.jpg")
-background-position: 50% 50%
-background-size: cover
-
-
----
+class: inverse, bottom
 background-image: url("./img/cornwall.jpg")
 background-position: 50% 50%
 background-size: cover
 
+### Atlantic Ocean in Cornwall
+
 ---
+class: bottom, right 
+background-image: url("./img/Towerbridge.jpg")
+background-position: 50% 50%
+background-size: cover
+
+### Towerbridge in snow
+
+---
+class: bottom, inverse, center
 background-image: url("./img/newyear.jpg")
 background-position: 50% 50%
 background-size: cover
 
+### London Eye on Newyear's Eve
 
 ---
+class: top, right
 background-image: url("./img/windsors.jpg")
 background-position: 50% 50%
 background-size: cover
+
+### Windsor Castle
+---
+class: inverse, center, middle
+
+# Term 2
+
+
+---
+background-image: url("./img/Term2.png")
+background-position: 50% 50%
+background-size: contain
+
 
 
 ---
@@ -122,6 +155,11 @@ background-size: cover
 
 ---
 background-image: url("./img/strike.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/strike02.jpg")
 background-position: 50% 50%
 background-size: cover
 
@@ -155,6 +193,8 @@ class: inverse
 background-image: url("./img/hawkin.png")
 background-position: 50% 50%
 background-size: contain
+
+### 2018-03-14
 
 ---
 background-image: url("./img/LondonR.jpg")
@@ -247,6 +287,11 @@ background-size: contain
 class: inverse
 background-image: url("./img/Johnsnowpub.jpg")
 background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/MedStats20172018.png")
 background-size: contain
 
 

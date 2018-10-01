@@ -18,11 +18,7 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-background-image: url("./img/MedStats20172018.png")
-background-size: contain
 
-
----
 class: inverse, center, middle
 
 # Term 1
@@ -52,6 +48,22 @@ background-position: 50% 50%
 background-size: contain
 
 ---
+### My activity zone (everything within 1 km)
+```{r out.width='100%', fig.height=7, eval=require('leaflet'), echo=FALSE}
+library(leaflet)
+leaflet() %>% 
+  setView(lng=-0.130276, lat=51.520812, zoom = 15) %>% 
+  addTiles() %>% 
+  addMarkers(lng=-0.130276, lat=51.520812,
+    popup="LSHTM") %>% 
+  addMarkers(lng = -0.121504, lat = 51.523664, popup = "International Hall") %>% 
+  addMarkers(lng = -0.125381, lat = 51.527128, popup = "Lutheran Student Centre") %>% 
+  addCircles(lng=-0.130276, lat=51.520812, radius = 1000, opacity = 0.7, weight = 3,
+             fill = FALSE)
+```
+
+
+---
 background-image: url("./img/pumpJohnSnowhall.jpg")
 background-position: 50% 50%
 background-size: contain
@@ -62,6 +74,7 @@ background-position: 50% 50%
 background-size: contain
 
 ---
+class: inverse
 background-image: url("./img/fishandchips.jpg")
 background-position: 50% 50%
 background-size: contain
@@ -88,26 +101,47 @@ background-size: contain
 
 
 ---
-background-image: url("./img/Towerbridge.jpg")
-background-position: 50% 50%
-background-size: cover
-
-
----
+class: inverse, bottom
 background-image: url("./img/cornwall.jpg")
 background-position: 50% 50%
 background-size: cover
 
+### Atlantic Ocean in Cornwall
+
 ---
+class: bottom, right 
+background-image: url("./img/Towerbridge.jpg")
+background-position: 50% 50%
+background-size: cover
+
+### Towerbridge in snow
+
+---
+class: bottom, inverse, center
 background-image: url("./img/newyear.jpg")
 background-position: 50% 50%
 background-size: cover
 
+### London Eye on Newyear's Eve
 
 ---
+class: top, right
 background-image: url("./img/windsors.jpg")
 background-position: 50% 50%
 background-size: cover
+
+### Windsor Castle
+---
+class: inverse, center, middle
+
+# Term 2
+
+
+---
+background-image: url("./img/Term2.png")
+background-position: 50% 50%
+background-size: contain
+
 
 
 ---
@@ -118,6 +152,11 @@ background-size: cover
 
 ---
 background-image: url("./img/strike.jpg")
+background-position: 50% 50%
+background-size: cover
+
+---
+background-image: url("./img/strike02.jpg")
 background-position: 50% 50%
 background-size: cover
 
@@ -151,6 +190,8 @@ class: inverse
 background-image: url("./img/hawkin.png")
 background-position: 50% 50%
 background-size: contain
+
+### 2018-03-14
 
 ---
 background-image: url("./img/LondonR.jpg")
@@ -243,6 +284,11 @@ background-size: contain
 class: inverse
 background-image: url("./img/Johnsnowpub.jpg")
 background-position: 50% 50%
+background-size: contain
+
+---
+class: inverse
+background-image: url("./img/MedStats20172018.png")
 background-size: contain
 
 
