@@ -36,6 +36,12 @@ background-image: url("./img/rss.png")
 background-position: 50% 50%
 background-size: contain
 
+---
+class: inverse
+background-image: url("./img/GradStat.png")
+background-position: 50% 50%
+background-size: contain
+
 
 
 ---
@@ -273,6 +279,12 @@ background-position: 50% 50%
 background-size: contain
 
 ---
+background-image: url("./img/Distinction.png")
+background-position: 50% 50%
+background-size: contain
+
+
+---
 class: inverse
 background-image: url("./img/project.jpg")
 background-position: 50% 50%
@@ -306,6 +318,12 @@ background-position: 50% 50%
 background-size: contain
 
 
+
+---
+class: inverse
+background-image: url("./img/poster.png")
+background-position: 50% 50%
+background-size: contain
 
 
 
