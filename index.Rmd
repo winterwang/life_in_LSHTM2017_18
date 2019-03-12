@@ -326,7 +326,16 @@ background-position: 50% 50%
 background-size: contain
 
 
+---
+class: top
+background-image:url("./img/MedStatWebBook.png")
+background-position: 50% 80%
+background-size: contain
 
+## Medical Statistics: <br>(LSHTM learning note) 
+<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+[https://wangcc.me/LSHTMlearningnote/](https://wangcc.me/LSHTMlearningnote/)
 
 ---
 class: inverse, right, top
